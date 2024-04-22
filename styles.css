@@ -1,0 +1,73 @@
+body {
+    background-color: #D5E1EF;
+}
+
+.retangulomae {
+    position: relative;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.rectangle {
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    border-radius: 18px;
+    padding: 15px;
+    margin: auto;
+    width: 288px;
+}
+
+.image {
+    height: 288px;
+    border-radius: 15px;
+}
+
+.text {
+    padding: 0 5px;
+}
+
+.titulo {
+    font-size: 22px;
+    color: #1f314f;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}
+
+.texto {
+    font-size: 15px;
+    color: grey;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+.attribution {
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+}
+
+.attribution p{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;   
+    color: #1f314f;
+    font-weight: bold;
+}
+
+.attribution p a{
+    text-decoration: none;
+    color: #1f314f;
+
+}
+
+@media screen and (max-width: 375px) {
+    .retangulomae {
+        position: relative;
+        align-items: center;
+        margin-top: 20%;
+    }   
+}
